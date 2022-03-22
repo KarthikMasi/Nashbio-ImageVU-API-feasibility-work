@@ -15,7 +15,7 @@ eg: [{"grid":"#######4","accessionNo":"#######","hashedAccessionNo":"55955450514
 
 ## CURL command to push to ambra
 
-$ curl --location -X POST 'https://rd.app.vumc.org/rdws/imagevu/push' --header "Content-Type: application/json" --header 'Authorization: Basic <token_generated>' --data '[5595545051436998434]'
+$ curl --location -X POST 'https://rd.app.vumc.org/rdws/imagevu/push/nashbio' --header "Content-Type: application/json" --header 'Authorization: Basic <token_generated>' --data '[5595545051436998434]'
 
 eg: {"5595545051436998434":"PUSHED"}
 
